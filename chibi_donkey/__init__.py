@@ -28,7 +28,6 @@ def partion( key ):
     [ 'a', 'b', 'c' ]
     """
     return key.split( '__' )
-    parts = key.rsplit( '__', 1 )
 
 
 def init( key ):
