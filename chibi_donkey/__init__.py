@@ -1,3 +1,6 @@
+__version__ = 1.0.0
+
+
 def key( *args ):
     """
     join the arguments in the format of donkey
