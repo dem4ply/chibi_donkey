@@ -30,20 +30,23 @@ def partion( key ):
     return key.split( '__' )
 
 
-def init( key ):
+def init( k ):
     """
     get the first key
 
     Arguments
     ---------
-    key: string
+    k: string
 
     Examples
     --------
     >>>init( 'a__b__c' )
-    a
+    a__b
     """
-    return partion( key )[0]
+    p = partion( k )
+    if len( p ) > 1:
+        return key( *p[:-1] )
+    return key( *p )
 
 
 def last( key ):

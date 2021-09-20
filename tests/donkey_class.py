@@ -1,9 +1,12 @@
 from unittest import TestCase
 
-import chibi_donkey as donkey
+from chibi_donkey.donkey import Donkey
 
 
-class Test_donkey( TestCase ):
+donkey = Donkey( '__' )
+
+
+class Test_donkey_class( TestCase ):
 
     def setUp( self ):
         pass
