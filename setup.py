@@ -9,7 +9,7 @@ README = open(os.path.join( here, 'README.rst' ) ).read()
 
 setup(
     name='chibi_donkey',
-    version='1.0.0',
+    version='1.0.1',
     description='library for proccess the format double undescore',
     long_description=README,
     license='',
