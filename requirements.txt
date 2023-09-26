@@ -7,7 +7,7 @@ pep8==1.7.0
 pip
 pyflakes
 twine==1.14.0
-wheel==0.33.6
+wheel==0.38.1
 
 
 jedi
