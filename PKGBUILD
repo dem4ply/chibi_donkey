@@ -1,5 +1,5 @@
 pkgname=python-chibi-donkey
-_pyname=chibi-donkey
+_pyname=chibi_donkey
 pkgver=1.0.1
 pkgrel=1
 pkgdesc="library for proccess the format double undescore"
