@@ -1,7 +1,7 @@
 pkgname=python-chibi-donkey
 _pyname=chibi-donkey
 pkgver=1.0.1
-pkgrel=1
+pkgrel=
 pkgdesc="library for proccess the format double undescore"
 arch=('any')
 url="https://pypi.org/project/chibi_donkey/"
