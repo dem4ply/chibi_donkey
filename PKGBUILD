@@ -13,15 +13,11 @@ source=("https://files.pythonhosted.org/packages/source/${_pyname::1}/${_pyname/
 sha256sums=('218a1a707a9687df51480a720eb2d3db7730924e50320b0e77ad3f2899bf56e5')
 
 build() {
-	pwd
-	ls
 	cd "$_pyname-$pkgver"
 	python setup.py build
 }
 
 package() {
-	pwd
-	ls
 	cd $_pyname-${pkgver}
 	python setup.py install --root="$pkgdir" --optimize=1
 }
