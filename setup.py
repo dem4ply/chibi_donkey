@@ -15,7 +15,7 @@ setup(
     license='',
     author='dem4ply',
     author_email='',
-    packages=find_packages(),
+    packages=find_packages(include=['chibi_donkey', 'chibi_donkey.*']),
     install_requires=[],
     dependency_links = [],
     url='https://github.com/dem4ply/chibi_donkey',
